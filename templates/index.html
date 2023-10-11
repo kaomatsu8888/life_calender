@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Calendar</title>
+</head>
+
+<body>
+    <h1>Life Calendar</h1>
+    <form action="/" method="post"></form>
+
+        <label for="birth_year">Birth Year:</label>
+        <input type="number" name="birth_year" required>
+        <br>
+        <label for="birth_month">Birth Month:</label>
+        <input type="number" name="birth_month" min="1" max="12" required>
+        <br>
+        <label for="birth_day">Birth Day:</label>
+        <input type="number" name="birth_day" min="1" max="31" required>
+        <br>
+        <input type="submit" value="Generate Life Calendar">
+    </form>
+</body>
+
+</html>
